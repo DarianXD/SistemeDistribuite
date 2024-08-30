@@ -12,7 +12,7 @@ import java.io.File;
 public class UpdateStudentServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
-        File file = new File("/home/darian/opt/1307A/Popescu Ion/student.xml");
+        File file = new File("/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/student.xml");
         XmlMapper xmlMapper = new XmlMapper();
 
         if ("Update".equals(action) && file.exists()) {

@@ -5,89 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00377670-d22b-4bad-b502-697bcf08c451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateStudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/java/DAO/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/java/DAO/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/java/ProcessStudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/java/ReadStudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/java/beans/StudentBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/webapp/formular.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LabSesiune/src/main/webapp/info-student.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/LabSesiune03/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/LabSesiune03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/LabSesiune03/src/main/kotlin/com/sd/laborator/Hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/LabSesiune03/src/main/kotlin/com/sd/laborator/HelloController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/LabSesiune03/src/main/kotlin/com/sd/laborator/HelloService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/LabSesiune03/src/test/kotlin/com/sd/laborator/HelloTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/com/sd/laborator/Hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/com/sd/laborator/WeatherApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/controllers/WeatherAppController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/interfaces/LocationSearchInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/interfaces/WeatherForecastInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/pojo/WeatherForecastData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/services/LocationSearchService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/services/TimeService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/main/kotlin/services/WeatherForecastService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab03/WeatherAppSes/src/test/kotlin/com/sd/laborator/HelloTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/StackApp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/components/RabbitMqConnectionFactoryComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/components/StackAppComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/interfaces/CartesianProductOperation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/interfaces/PrimeNumberGenerator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/interfaces/UnionOperation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/model/Stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/services/CartesianProductService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/services/PrimeNumberGeneratorService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/kotlin/com/sd/laborator/services/UnionService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab05/Lab05S/src/test/kotlin/com/sd/laborator/HelloTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab06/Lab06Ex1S/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab06/Lab06Ex1S/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab06/Lab06Ex1S/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab06/Lab06Ex1S/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab06/Lab06Ex1S/src/main/kotlin/com/sd/laborator/Hello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab06/Lab06Ex1S/src/test/kotlin/com/sd/laborator/HelloTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProcessStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProcessStudentServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ReadStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReadStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/formular.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/formular.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/info-student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info-student.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSesiune/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSesiune/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSesiune/src/main/java/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSesiune/src/main/java/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSesiune/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSesiune/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSesiune/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSesiune/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/ProjectMAVEN/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/ProjectMAVEN/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/ProjectMAVEN/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/ProjectMAVEN/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/ProjectMAVEN/src/main/kotlin/com/sd/laborator/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/ProjectMAVEN/src/main/kotlin/com/sd/laborator/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/WeatherApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/WeatherApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/WeatherApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/WeatherApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/WeatherApp/src/main/kotlin/com/sd/laborator/controllers/WeatherAppController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/WeatherApp/src/main/kotlin/com/sd/laborator/controllers/WeatherAppController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/WeatherApp/src/main/kotlin/com/sd/laborator/interfaces/WeatherForecastInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/WeatherApp/src/main/kotlin/com/sd/laborator/interfaces/WeatherForecastInterface.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/WeatherApp/src/main/kotlin/com/sd/laborator/services/WeatherForecastService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/WeatherApp/src/main/kotlin/com/sd/laborator/services/WeatherForecastService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab03/demo/src/main/kotlin/com/example/demo/HelloService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/demo/src/main/kotlin/com/example/demo/HelloService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/src/main/kotlin/com/sd/laborator/Hello.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/Lab04Exemplu/src/test/kotlin/com/sd/laborator/HelloTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/PhoneAgenda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab04/PhoneAgenda/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/PhoneAgenda/src/main/kotlin/com/sd/laborator/controllers/AgendaController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab04/PhoneAgenda/src/main/kotlin/com/sd/laborator/controllers/AgendaController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab04/PhoneAgenda/src/main/kotlin/com/sd/laborator/interfaces/AgendaService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab04/PhoneAgenda/src/main/kotlin/com/sd/laborator/interfaces/AgendaService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateStudentServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +33,12 @@
     &quot;assignee&quot;: &quot;DarianXD1&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/PP-SD-2024/sd-1307a-homeworks-DarianXD1.git&quot;,
-    &quot;accountId&quot;: &quot;29983338-924e-4fba-b8b3-d570a7ac62c1&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DarianXD/SistemeDistribuite.git",
+    "accountId": "29983338-924e-4fba-b8b3-d570a7ac62c1"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -124,33 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JEE-Test [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JEE-Test [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JEE-Test [org.codehaus.cargo:cargo-maven2-plugin:run].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JEE-Test [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Redeploy.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Start server &amp; deploy app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;miauviatza&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/darian/Documents/SD/Exemple/labsd01/SD_Laborator_01/JEE-Test&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.JEE-Tema [compile].executor": "Run",
+    "Maven.JEE-Tema [package].executor": "Run",
+    "Maven.JEE-Test [clean].executor": "Run",
+    "Maven.JEE-Test [compile].executor": "Run",
+    "Maven.JEE-Test [org.codehaus.cargo:cargo-maven2-plugin:run].executor": "Run",
+    "Maven.JEE-Test [package].executor": "Run",
+    "Maven.Redeploy.executor": "Run",
+    "Maven.Start server & deploy app.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.." />
@@ -161,7 +86,20 @@
       <command value="mvn org.codehaus.cargo:cargo-maven2-plugin:run" />
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Redeploy">
+  <component name="RunManager" selected="Maven.Start server &amp; deploy app">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JEE-Tema" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JEE-Tema" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Redeploy" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -257,6 +195,7 @@
       <workItem from="1724841251027" duration="7165000" />
       <workItem from="1724926498375" duration="11807000" />
       <workItem from="1725010451252" duration="2336000" />
+      <workItem from="1725016609078" duration="1251000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,7 @@ public class ReadStudentServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
 // deserializare student din fisierul XML de pe disc
-        File file = new File("/home/darian/opt/1307A/Popescu Ion/student.xml");
+        File file = new File("/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/student.xml");
 // se returneaza un raspuns HTTP de tip 404 in cazul in care nu se gaseste fisierul cu date
         if (!file.exists()) {
             response.sendError(404, "Nu a fost gasit niciun student serializat pe disc!");

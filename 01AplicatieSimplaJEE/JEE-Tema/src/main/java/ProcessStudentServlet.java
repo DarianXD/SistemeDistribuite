@@ -30,7 +30,7 @@ procesarea datelor - calcularea anului nasterii
         bean.setPrenume(prenume);
         bean.setVarsta(varsta);
 // serializare bean sub forma de string XML
-        mapper.writeValue(new File("/home/darian/opt/1307A/Popescu Ion/student.xml"), bean);
+        mapper.writeValue(new File("/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/student.xml"), bean);
 // se trimit datele primite si anul nasterii catre o alta pagina JSP pentru afisare
         request.setAttribute("nume", nume);
         request.setAttribute("prenume", prenume);
