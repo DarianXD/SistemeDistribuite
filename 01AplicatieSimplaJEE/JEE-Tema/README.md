@@ -1,0 +1,3 @@
+Deci în cadrul aplicației JEE TEST, care e de tip web application, vei avea un  artefact de tip WAR care va fi deployed(incarcat) automat prin plugin-ul cargo (care și acesta e un artefact folosit în proiectul nostru) pe serverul glassfish, war-ul facandu-se după ce ai dat build si compile prin maven a aplicatiei.
+
+Aplicatia este o aplicatie simpla cu arhitectura JEE, care utilizeaza bean-uri. Aceasta are rolul de a arata conceptul de servleti si pagini jsp. In aceasta se afla un formular care salveaza un student intr-un fisier xml si cu ajutorul unui servlet se va citi din acel fisier si se va afisa pe o pagina jsp, respectiv va putea primi update/delete.
