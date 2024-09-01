@@ -1,0 +1,13 @@
+<students>
+    <student>
+        <nume>Ion</nume>
+        <prenume>Popescu</prenume>
+        <varsta>20</varsta>
+    </student>
+    <student>
+        <nume>Maria</nume>
+        <prenume>Ionescu</prenume>
+        <varsta>21</varsta>
+    </student>
+</students>
+
