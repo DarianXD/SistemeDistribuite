@@ -6,19 +6,19 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
     <servlet-name>Hello</servlet-name>
-    <servlet-class>HelloServlet</servlet-class>
+    <servlet-class>Servlets.HelloServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ProcessStudent</servlet-name>
-    <servlet-class>ProcessStudentServlet</servlet-class>
+    <servlet-class>Servlets.ProcessStudentServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>ReadStudent</servlet-name>
-    <servlet-class>ReadStudentServlet</servlet-class>
+    <servlet-class>Servlets.ReadStudentServlet</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>UpdateStudent</servlet-name>
-    <servlet-class>UpdateStudentServlet</servlet-class>
+    <servlet-class>Servlets.UpdateStudentServlet</servlet-class>
   </servlet>
 
 
