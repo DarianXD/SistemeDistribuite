@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00377670-d22b-4bad-b502-697bcf08c451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/beans/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProcessStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/ProcessStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReadStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/ReadStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/UpdateStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="00377670-d22b-4bad-b502-697bcf08c451" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "41148cf0",
+    "git-widget-placeholder": "3fa982c3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema",
     "node.js.detected.package.eslint": "true",
