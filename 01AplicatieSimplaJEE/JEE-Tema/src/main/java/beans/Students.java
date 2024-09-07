@@ -10,7 +10,7 @@ public class Students {
     {
         return studentList;
     }
-    private int mama = 0;
+
     public void setStudentList(List<StudentBean> studentList)
     {
         this.studentList = studentList;
