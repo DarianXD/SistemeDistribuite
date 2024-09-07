@@ -20,7 +20,10 @@
     <servlet-name>UpdateStudent</servlet-name>
     <servlet-class>Servlets.UpdateStudentServlet</servlet-class>
   </servlet>
-
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>Servlets.SearchStudentServlet</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>
@@ -37,6 +40,10 @@
   <servlet-mapping>
     <servlet-name>UpdateStudent</servlet-name>
     <url-pattern>/update-student</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search-student</url-pattern>
   </servlet-mapping>
 
 

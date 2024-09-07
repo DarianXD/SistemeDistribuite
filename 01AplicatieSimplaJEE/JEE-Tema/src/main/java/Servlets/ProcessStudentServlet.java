@@ -1,6 +1,7 @@
 package Servlets;
 
 import beans.StudentBean;
+import beans.Students;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 import javax.servlet.ServletException;
@@ -15,29 +16,28 @@ public class ProcessStudentServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response)
             throws ServletException, IOException {
-// se citesc parametrii din cererea de tip POST
-        String nume = request.getParameter("nume");
-        String prenume = request.getParameter("prenume");
-        int varsta = Integer.parseInt(request.getParameter("varsta"));
-/*
-procesarea datelor - calcularea anului nasterii
-*/
-        int anCurent = Year.now().getValue();
-        int anNastere = anCurent - varsta;
-        // initializare serializator Jackson
-        XmlMapper mapper = new XmlMapper();
-        // creare bean si populare cu date
-        StudentBean bean = new StudentBean();
-        bean.setNume(nume);
-        bean.setPrenume(prenume);
-        bean.setVarsta(varsta);
-// serializare bean sub forma de string XML
-        mapper.writeValue(new File("/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/student.xml"), bean);
-// se trimit datele primite si anul nasterii catre o alta pagina JSP pentru afisare
-        request.setAttribute("nume", nume);
-        request.setAttribute("prenume", prenume);
-        request.setAttribute("varsta", varsta);
-        request.setAttribute("anNastere", anNastere);
-        request.getRequestDispatcher("./info-student.jsp").forward(request, response);
+
+        String filePath = "/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/students.xml";
+        File file = new File(filePath);
+        XmlMapper xmlMapper = new XmlMapper();
+        Students Students_List;
+        if(file.exists())
+        {
+            Students_List = xmlMapper.readValue(file, Students.class);
+        } else {
+            Students_List = new Students();
+        }
+        StudentBean newStudent = new StudentBean();
+        newStudent.setNume(request.getParameter("nume"));
+        newStudent.setPrenume(request.getParameter("prenume"));
+        newStudent.setVarsta(Integer.parseInt(request.getParameter("varsta")));
+
+        Students_List.getStudentList().add(newStudent);
+        xmlMapper.writeValue(file, Students_List);
+
+        //response.sendRedirect("find_student.jsp");
+        request.getRequestDispatcher("./find_student.jsp").forward(request, response);
+
+       // request.getRequestDispatcher("./info-student.jsp").forward(request, response);
     }
 }

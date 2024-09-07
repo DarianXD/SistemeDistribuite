@@ -13,16 +13,15 @@ public class ReadStudentServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
-// deserializare student din fisierul XML de pe disc
-        File file = new File("/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/student.xml");
-// se returneaza un raspuns HTTP de tip 404 in cazul in care nu se gaseste fisierul cu date
+        // deserializare student din fisierul XML de pe disc
+        File file = new File("/home/darian/Documents/SD/SistemeDistribuite/01AplicatieSimplaJEE/JEE-Tema/students.xml");
+        // se returneaza un raspuns HTTP de tip 404 in cazul in care nu se gaseste fisierul cu date
         if (!file.exists()) {
-            response.sendError(404, "Nu a fost gasit niciun student serializat pe disc!");
+            response.getWriter().println("<html><body>" + "Nu exista fisierul student.xml" + "<a href='./index.jsp'>Inapoi</a>" + "</body></html>");
             return;
         }
         XmlMapper xmlMapper = new XmlMapper();
-        StudentBean bean = xmlMapper.readValue(file,
-                StudentBean.class);
+        StudentBean bean = xmlMapper.readValue(file, StudentBean.class);
         request.setAttribute("nume", bean.getNume());
         request.setAttribute("prenume", bean.getPrenume());
         request.setAttribute("varsta", bean.getVarsta());
