@@ -40,6 +40,7 @@ public class SearchStudentServlet extends HttpServlet {
                 if(student.getVarsta() == Integer.parseInt(varsta))
                 {
                     htmlGen.append(htmlSerializer.Serialize(student));
+                    appendForm(htmlGen, student);
                 }
             }
         }else if(nume != null && !nume.isEmpty())
@@ -49,6 +50,7 @@ public class SearchStudentServlet extends HttpServlet {
                 if(student.getNume().equals(nume))
                 {
                     htmlGen.append(htmlSerializer.Serialize(student));
+                    appendForm(htmlGen, student);
                 }
             }
         }else if(prenume != null && !prenume.isEmpty())
@@ -58,6 +60,7 @@ public class SearchStudentServlet extends HttpServlet {
                 if(student.getPrenume().equals(prenume))
                 {
                     htmlGen.append(htmlSerializer.Serialize(student));
+                    appendForm(htmlGen, student);
                 }
             }
         }
@@ -66,5 +69,20 @@ public class SearchStudentServlet extends HttpServlet {
         htmlGen.append("</html");
         PrintWriter writer = response.getWriter();
         writer.println(htmlGen);
+    }
+    private void appendForm(StringBuilder htmlGen, StudentBean student) {
+        htmlGen.append("<form action='./update-student' method='post'>");
+        htmlGen.append("<input type='hidden' name='nume' value='" + student.getNume() + "' />");
+        htmlGen.append("<input type='hidden' name='prenume' value='" + student.getPrenume() + "' />");
+        htmlGen.append("<input type='hidden' name='varsta' value='" + student.getVarsta() + "' />");
+
+        htmlGen.append("<input type='text' name='newNume' value='" + student.getNume() + "' />");
+        htmlGen.append("<input type='text' name='newPrenume' value='" + student.getPrenume() + "' />");
+        htmlGen.append("<input type='text' name='newVarsta' value='" + student.getVarsta() + "' />");
+
+
+        htmlGen.append("<input type='submit' name='action' value='Update' />");
+        htmlGen.append("<input type='submit' name='action' value='Delete' />");
+        htmlGen.append("</form>");
     }
 }
