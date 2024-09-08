@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e83c16-4fa9-413a-8c05-746b03cea81a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ear/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejbs/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primary-source/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/logging/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/src/main/java/Servlets/ProcessStudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/src/main/java/Servlets/ProcessStudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725807944584</updated>
-      <workItem from="1725807945565" duration="1000000" />
+      <workItem from="1725807945565" duration="1065000" />
     </task>
     <servers />
   </component>
