@@ -21,12 +21,15 @@ public class ProcessStudentServlet extends HttpServlet {
         File file = new File(filePath);
         XmlMapper xmlMapper = new XmlMapper();
         Students Students_List;
+
         if(file.exists())
         {
             Students_List = xmlMapper.readValue(file, Students.class);
-        } else {
+        } else
+        {
             Students_List = new Students();
         }
+
         StudentBean newStudent = new StudentBean();
         newStudent.setNume(request.getParameter("nume"));
         newStudent.setPrenume(request.getParameter("prenume"));
