@@ -46,6 +46,7 @@
               <addClasspath>true</addClasspath>
             </manifest>
           </archive>
+          <finalName>${project.parent.artifactId}</finalName>
         </configuration>
       </plugin>
     </plugins>

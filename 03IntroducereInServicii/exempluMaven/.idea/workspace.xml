@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="432b4329-2b67-46fd-a906-6edc276059db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/java/ejb/BankAccountBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/java/ejb/StatelessSessionBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/java/ejb/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/java/interfaces/BankAccountBeanRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/java/interfaces/StatelessSessionBeanRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/java/DeleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/java/FetchStudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/java/ProcessBankOperationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/java/ProcessStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/java/UpdateStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/formular.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/update-student-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/.idea/libraries/interfaces.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/JEE-Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/src/JEEClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/Hello.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/HelloController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/HelloService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/sd/laborator/HelloTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/src/main/java/beans/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/src/main/java/beans/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ear/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ear/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/ejbs/src/main/resources/META-INF/ejb-jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DarianXD1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DarianXD/SistemeDistribuite.git",
+    "accountId": "29983338-924e-4fba-b8b3-d570a7ac62c1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2m0bslklHKZS6wApF0K04kMW629" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.exempluMaven [compile].executor": "Run",
+    "Maven.exempluMaven [org.springframework.boot:spring-boot-maven-plugin:2.3.12.RELEASE:run].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="432b4329-2b67-46fd-a906-6edc276059db" name="Changes" comment="" />
+      <created>1726216652139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726216652139</updated>
+      <workItem from="1726216653309" duration="2176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
