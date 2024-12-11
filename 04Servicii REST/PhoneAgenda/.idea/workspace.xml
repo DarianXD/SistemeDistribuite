@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432b4329-2b67-46fd-a906-6edc276059db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../04Servicii REST/PhoneAgenda/src/main/kotlin/com/sd/laborator/controllers/AgendaController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04Servicii REST/PhoneAgenda/src/main/kotlin/com/sd/laborator/interfaces/IAgendaService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04Servicii REST/PhoneAgenda/src/main/kotlin/com/sd/laborator/pojo/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04Servicii REST/PhoneAgenda/src/main/kotlin/com/sd/laborator/services/AgendaService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/controllers/AgendaController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/interfaces/IAgendaService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/pojo/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/AgendaService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/src/main/java/beans/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/src/main/java/beans/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/.idea/workspace.xml" afterDir="false" />
@@ -31,8 +31,8 @@
       <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/update-student-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-App/servlets/servlet/src/main/webapp/update-student-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/src/JEEClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../02AplicatieComplexaJ2EE/JEE-Client/src/JEEClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/WeatherForecastService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/sd/laborator/services/WeatherForecastService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03IntroducereInServicii/WeatherApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03IntroducereInServicii/WeatherApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03IntroducereInServicii/WeatherApp/src/main/kotlin/com/sd/laborator/services/WeatherForecastService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../03IntroducereInServicii/WeatherApp/src/main/kotlin/com/sd/laborator/services/WeatherForecastService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
@@ -76,14 +77,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.WeatherApp [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.WeatherApp [org.springframework.boot:spring-boot-maven-plugin:2.3.12.RELEASE:run].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;Maven.exempluMaven [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.exempluMaven [org.springframework.boot:spring-boot-maven-plugin:2.3.12.RELEASE:run].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.WeatherApp.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.PhoneAgenda.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -91,15 +88,22 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="WeatherApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.PhoneAgenda">
+    <configuration name="Hello" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="WeatherApp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sd.laborator.WeatherApp" />
+      <module name="exempluMaven" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sd.laborator.Hello" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneAgenda" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="exempluMaven" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sd.laborator.PhoneAgenda" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sd.laborator.*" />
@@ -112,7 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WeatherApp" />
+        <item itemvalue="Spring Boot.PhoneAgenda" />
       </list>
     </recent_temporary>
   </component>
@@ -132,29 +136,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726216652139</updated>
-      <workItem from="1726216653309" duration="533000" />
-      <workItem from="1726220769295" duration="20695000" />
-      <workItem from="1726249359083" duration="1262000" />
-      <workItem from="1726296941443" duration="599000" />
-      <workItem from="1729651551085" duration="5041000" />
-      <workItem from="1731051532677" duration="2719000" />
-      <workItem from="1731422577519" duration="2244000" />
-      <workItem from="1733387975467" duration="627000" />
+      <workItem from="1726216653309" duration="2176000" />
+      <workItem from="1726252972553" duration="2144000" />
+      <workItem from="1726296925098" duration="5011000" />
+      <workItem from="1729651556211" duration="708000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

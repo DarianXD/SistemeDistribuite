@@ -28,8 +28,11 @@ public class FetchStudentListServlet extends HttpServlet {
 // se creeaza cate un rand de tabel HTML pentru fiecarestudent gasit
             responseText.append("<tr><td>" + student.getId() +"</td><td>" +
                     student.getNume() + "</td><td>" +
-                    student.getPrenume() +
-                    "</td><td>" + student.getVarsta() + "</td></tr>");}
+                    student.getPrenume() + "</td><td>"
+                    + student.getVarsta() + "</td></tr>" +
+                    "<a href='./update-student-form.jsp?id=" + student.getId() + "'Actualizeaza</a></td><td>" +
+                    "<a href='./delete-student?id=" + student.getId() + "'>Sterge</a></td></tr>"
+            );}
         responseText.append("</tbody></table><br /><br /><a href='./'>Inapoi la meniul principal</a>");
 // inchidere EntityManager
         em.close();

@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63e83c16-4fa9-413a-8c05-746b03cea81a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/ejb/BankAccountBeanImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/ejb/StatelessSessionBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/ejb/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/interfaces/BankAccountBeanRemote.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ejbs/src/main/java/interfaces/StatelessSessionBeanRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/DeleteStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/FetchStudentListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/ProcessBankOperationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/ProcessStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/java/UpdateStudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/formular.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/update-student-form.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JEE-Client/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JEE-Client/.idea/libraries/interfaces.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JEE-Client/.idea/misc.xml" afterDir="false" />
@@ -18,7 +30,12 @@
       <change beforePath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01AplicatieSimplaJEE/JEE-Tema/students.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ear/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ear/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejbs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejbs/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ejbs/src/main/resources/META-INF/ejb-jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlets/servlet/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -71,6 +90,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -92,7 +114,7 @@
       <updated>1725807944584</updated>
       <workItem from="1725807945565" duration="8973000" />
       <workItem from="1725826934730" duration="350000" />
-      <workItem from="1726064183697" duration="7162000" />
+      <workItem from="1726064183697" duration="48697000" />
     </task>
     <servers />
   </component>

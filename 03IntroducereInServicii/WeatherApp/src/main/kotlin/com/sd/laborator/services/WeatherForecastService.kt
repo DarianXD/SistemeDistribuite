@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import java.net.URL
 import kotlin.math.roundToInt
+
+
 @Service
 class WeatherForecastService : WeatherForecastInterface {
 

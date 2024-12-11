@@ -12,7 +12,7 @@
                 <property name="javax.persistence.jdbc.url"
                         value="jdbc:sqlite:/home/darian/Documents/SD/SistemeDistribuite/02AplicatieComplexaJ2EE/JEE-App/DataBase/studenti.db" />
                 <property name="eclipselink.logging.level" value="ALL"/>
-                <property name="eclipselink.ddl-generation" value="createtables" />
+                <property name="eclipselink.ddl-generation" value="create-tables" />
             </properties>
     </persistence-unit>
 </persistence>

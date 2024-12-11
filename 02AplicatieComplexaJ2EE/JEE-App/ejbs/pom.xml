@@ -31,7 +31,21 @@
       <version>8.0.1</version>
       <scope>provided</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.35.0.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.eclipse.persistence</groupId>
+      <artifactId>eclipselink</artifactId>
+      <version>2.7.7</version> <!-- Verifică pentru ultima versiune disponibilă -->
+    </dependency>
   </dependencies>
+
+
 
   <build>
     <plugins>

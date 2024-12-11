@@ -28,5 +28,10 @@
       <version>8.0.1</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>com.sd.laborator</groupId>
+      <artifactId>ejbs</artifactId>
+      <type>ejb</type>
+    </dependency>
   </dependencies>
 </project>
